@@ -21,7 +21,7 @@ A web-based tool that generates flowcharts from **text** or **code** using the *
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/flowchart-generator.git
+git clone https://github.com/Hasan-Shkoukani/flowchart-generator.git
 cd flowchart-generator
 ```
 
@@ -95,4 +95,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## 📧 Contact
 
-For questions or support, reach out at: [your-email@example.com]
+For questions or support, reach out at: hasanshkoukani19@gmail.com
+
+## NOTE: This is a submission for the final project of SWE302 in Near East University
