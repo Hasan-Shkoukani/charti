@@ -1,15 +1,15 @@
 
-# 🧠 Flowchart Generator
+# 🧠 Diagram Generator
 
-A web-based tool that generates flowcharts from **text** or **code** using the **Gemini API** and displays them with **React Flow**. It supports **dark mode**, and users can **download** their generated diagrams as PNG images.
+A web-based tool that generates diagrams from **text** or **code** using the **Gemini API** and displays them with **React Flow**. It supports **dark mode**, and users can **download** their generated diagrams as PNG images.
 
 ## 🚀 Features
 
-- ✍️ Input text or code to auto-generate flowcharts  
+- ✍️ Input text or code to auto-generate diagrams  
 - 🧠 Backend AI (Gemini API) processes your input  
 - 🗺️ Visual rendering with [React Flow](https://reactflow.dev/)  
 - 🌙 Light/Dark mode toggle  
-- 📥 Download flowcharts as PNG images  
+- 📥 Download diagrams as PNG images  
 
 ## 🛠️ Tech Stack
 
@@ -21,8 +21,8 @@ A web-based tool that generates flowcharts from **text** or **code** using the *
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Hasan-Shkoukani/flowchart-generator.git
-cd flowchart-generator
+git clone https://github.com/Hasan-Shkoukani/diagram-generator.git
+cd diagram-generator
 ```
 
 ### 2. Install dependencies
@@ -59,7 +59,7 @@ Backend runs on: `http://localhost:5000`
 
 1. You enter a prompt (either text or code).  
 2. It’s sent to the backend (`/api/gemini/generate`).  
-3. The Gemini API processes it and returns flowchart structure.  
+3. The Gemini API processes it and returns diagram structure.  
 4. The frontend renders it using React Flow.  
 5. You can download the result as a PNG image.
 
@@ -71,7 +71,7 @@ Different logos are used for each mode (`lightlogo.png`, `darklogo.png`).
 ## 📁 Project Structure
 
 ```
-flowchart-generator/
+diagram-generator/
 ├── client/               # React frontend
 │   ├── public/
 │   ├── src/
