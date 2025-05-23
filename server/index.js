@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Flowchart Generator API is running');
+  res.send('Diagram Generator API is running');
 });
 
 const geminiRoute = require('./routes/gemini');
